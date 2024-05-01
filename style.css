@@ -1,4 +1,9 @@
 .box {
     margin-top: 50px;
     margin-bottom: 50px;
+
+    border-style: dashed;
+
+    border: 5px 5px 5px 5px;
+    
 }
