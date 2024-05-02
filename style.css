@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -7,3 +8,20 @@
     border: 5px 5px 5px 5px;
     
 }
+=======
+/* Global */
+
+.photo {
+    max-width: 100%;
+}
+
+.blueText {
+    color: rgb(75, 151, 218);
+}
+
+.greyText {
+    color:rgb(126, 126, 119);
+}
+
+
+>>>>>>> 7002fddb6b564ae83f5e481b0eb91f58d7c42198
