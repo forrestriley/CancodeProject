@@ -2,13 +2,15 @@
 
 .photo {
     max-width: 100%;
+    max-height: 500px;
+    align-self: center;
 }
 
 .blueText {
-    color: rgb(75, 151, 218);
+    color: rgba(32,87,107,255);
 }
 
 .greyText {
-    color:rgb(126, 126, 119);
+    color:rgba(102,99,89,255)
 }
 
