@@ -12,7 +12,9 @@
 /* Global */
 
 .photo {
-    max-width: 100%;
+    max-width: 50%;
+    display: flex;
+    padding: 0 25%
 }
 
 .blueText {
@@ -40,7 +42,7 @@
 /* Body */
 
 body {
-    padding:2%;
+    padding: 2%;
 }
 /* nav */
 
@@ -76,8 +78,10 @@ header {
 
 /* Hero */
 
-.hero {
-  display: block;
+.hero img {
+    opacity:calc(.75);
+    object-fit: cover;
+    align-self: center;
 }
 
 /* Articles */
@@ -89,6 +93,14 @@ header {
 }
 
 /* Footer */
+
+.footContainer{
+    display: flex;
+}
+
+.footBox {
+    justify-content: space-evenly;
+}
 
 footer {
     margin-top: 20px;
