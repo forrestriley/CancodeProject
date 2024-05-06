@@ -25,19 +25,17 @@
 
 .borderLine {
     margin-top:1vh;
-    border-top: solid 1px rgb(126, 126, 119);
+    border-top: solid 1px rgb(218, 218, 211);
 }
 
 .flexContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 .flexBox {
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: flex-start;
 }
 /* Body */
 
@@ -85,6 +83,7 @@ header {
 /* Articles */
 
 .articleButton {
+    color: rgb(75, 151, 218);
     align-self: flex-end;
     justify-self: flex-end;
 }
