@@ -1,55 +1,63 @@
 <html lang="en">
 <head>
+
+    <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/05fd45b164.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
-    <!-- Meta Data -->
-
-
 <body>
     
 
 <!-- Navbar -->
-<nav>
+<header class="nav">
+    <a href="./index.html"><img src="./photos/Screenshot 2024-04-29 193559.png" alt="logo" class="logo"></a>
 
-    <!-- Hamburger/Logo -->
+    <nav class="navBar">
 
+        <ul class="navLinks">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Services.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
 
-    <!-- Links -->
-</nav>
+    </nav>
+</header>
+
 
 <!-- Hero -->
-<div>
-    <img class="photo" src="./photos/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="Software Picture">
-    <H1 class="blueText">Uberrando</H1>
-    <h3 class="greyText">The Future of Software Design and Services</h3>
+<div class="hero flexContainer">
+    <img class="photo flexBox" src="./photos/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="Software Picture">
+    <H1 class="blueText flexBox">Uberrando</H1>
+    <h3 class="greyText flexBox">The Future of Software Design and Services</h3>
 
 
 </div>
 
 <!-- Welcome Message - link to about-->
-<div class="border">
-    <h1 class="blueText">Who We Are</h1>
-    <p class="greyText">Here at Uberrando we strive to be on the forefront of the latest technology and trends to deliver the best possible outcomes to our customers</p>
-    <button href="">About Us</button>
+<div class="border flexContainer borderLine">
+    <h1 class="blueText flexBox">Who We Are</h1>
+    <p class="greyText flexBox">Here at Uberrando we strive to be on the forefront of the latest technology and trends to deliver the best possible outcomes to our customers</p>
+    <button class="articleButton flexBox" href="">About Us</button>
 </div>
 
 <!-- Article - link to services -->
-<div>
-    <h1 class="blueText">What We Do</h1>
-    <p class="greyText">We take your ideas and make them a reality. If it is within our scope, we will make it look dope!</p>
-    <button href="">Services</button>
+<div class="flexContainer borderLine">
+    <h1 class="blueText flexBox">What We Do</h1>
+    <p class="greyText flexBox">We take your ideas and make them a reality. If it is within our scope, we will make it look dope!</p>
+    <button class="articleButton flexBox" href="./Services.html">Services</button>
 
 </div>
 
 <!-- Learn more - link contact page -->
-<div>
-    <h1 class="blueText">Any Questions?</h1>
-    <p class="greyText">If you want to get to know more about Uberrando, or our services you can contact us any time</p>
-    <button href="">Contact</button>
+<div class="flexContainer borderLine">
+    <h1 class="blueText flexBox">Any Questions?</h1>
+    <p class="greyText flexBox">If you want to get to know more about Uberrando, or our services you can contact us any time</p>
+    <button class="articleButton flexBox" href="./about.html">Contact</button>
 </div>
 
 
@@ -60,11 +68,23 @@
 
 
 <!-- Footer -->
-<footer class="footText">
-    <a href="Services.html">Services</a>
-    <a href="">Contact Us</a>
-    <a href="">About Uberrando</a>
+<footer class="foot">
+    <ul class="footLinks footPages">
+        <li><a href="/index">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">About Uberrando</a></li>
+    </ul>
+    
+    <ul class="footLinks footSocials">
+        <li><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="www.github.com"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
 
+    </ul>
+    
+    <p>Copyright Uberrando 2024 All rights Reserved</p>
 
 </footer>
 
