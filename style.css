@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .box {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -9,11 +8,13 @@
     border: 5px 5px 5px 5px;
     
 }
-=======
+
 /* Global */
 
 .photo {
-    max-width: 100%;
+    max-width: 50%;
+    display: flex;
+    padding: 0 25%
 }
 
 .blueText {
@@ -24,10 +25,135 @@
     color:rgb(126, 126, 119);
 }
 
+.borderLine {
+    margin-top:1vh;
+    border-top: solid 1px rgb(218, 218, 211);
+}
 
->>>>>>> 7002fddb6b564ae83f5e481b0eb91f58d7c42198
-=======
+.flexContainer {
+    display: grid;
+}
 
-=======
->>>>>>> 780b23e5fea0fca0bea8d2ece543e466f1cf1bbb
->>>>>>> 5beeec91aa54ca83020898b832226b7c06caf998
+.flexBox {
+    justify-content: center;
+    align-items: center;
+    text-align: flex-start;
+}
+/* Body */
+
+body {
+    padding: 2%;
+}
+/* nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 20px;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    color: rgb(126, 126, 119);
+}
+
+.navLinks li a {
+    color:rgb(126, 126, 119);
+    text-decoration: none;
+}
+
+.navLinks li a:hover {
+    color: rgb(75, 151, 218);
+}
+
+/* Hero */
+
+.hero img {
+    opacity:calc(.75);
+    object-fit: cover;
+    align-self: center;
+}
+
+/* Articles */
+
+.articleButton {
+    color: rgb(75, 151, 218);
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+/* Footer */
+
+.footContainer{
+    display: flex;
+}
+
+.footBox {
+    justify-content: space-evenly;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot {
+    border-top: solid 1px rgb(126, 126, 119);
+}
+.footLinks {
+    list-style: none;
+}
+
+.footLinks li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Page Links */
+.footPages li{
+    
+    color:rgb(126, 126, 119);
+}
+
+.footPages li a{
+    text-decoration: none;
+    color:rgb(126, 126, 119);
+}
+
+.footPages li a:hover{
+    color: rgb(75, 151, 218);
+}
+
+/* Social Links */
+.footSocials {
+    padding-right: 5%;
+}
+
+.footSocials li{
+    padding: 0 10px;
+}
+
+.footSocials li a{
+    text-decoration: none;
+    color:rgb(126, 126, 119);
+}
+
+.footSocials li a:hover{
+    color: rgb(75, 151, 218);
+}
+
+footer p {
+    color: rgb(75, 151, 218);
+}
